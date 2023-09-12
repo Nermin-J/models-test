@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package enums.v1;
+
+option go_package = "github.com/Nermin-J/models-test/gen/enums/v1";
+
+enum AccessType {
+    ACCESS_TYPE_UNSPECIFIED = 0;
+}
